@@ -1,0 +1,145 @@
+
+.clients {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.clients:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.clients li {
+	float: left;
+	width: 25%;
+	line-height: 100px !important;
+	height: 100px;
+	margin: 0 !important;
+	padding: 0 !important;
+	text-align: center;
+	background: url(http://www.emergensys.net/tp_images/block/default/image_border_right.png) no-repeat right center !important;
+}
+.clients li:nth-child(4n+1) { clear: both; }
+.clients li:last-child,
+.clients li:nth-child(4n) { background: transparent !important; }
+.clients li img {
+	display: inline;
+	vertical-align: middle;
+}
+
+@media (max-width: 1199px) {
+	.clients li { width: 33%; }
+	.clients li:nth-child(4n+1) { clear: none; }
+	.clients li:nth-child(3n+1) { clear: both; }
+	.clients li:nth-child(4n) { background: url(http://www.emergensys.net/tp_images/block/default/image_border_right.png) no-repeat right center !important; }
+	.clients li:nth-child(3n) { background: transparent !important; }
+}
+@media (max-width: 579px) {
+	.clients li { width: 50%; }
+	.clients li:nth-child(3n+1) { clear: none; }
+	.clients li:nth-child(2n+1) { clear: both; }
+	.clients li:nth-child(3n) { background: url(http://www.emergensys.net/tp_images/block/default/image_border_right.png) no-repeat right center !important; }
+	.clients li:nth-child(2n) { background: transparent !important; }
+}
+
+.image{
+	display: inline-block;
+	width: 25%;
+	vertical-align: top;
+	height: 70px;
+	text-align: center;
+	line-height: 70px;
+	margin-bottom:64px;
+	background:url(http://www.emergensys.net/tp_images/block/default/image_border_right.png) no-repeat right center;
+}
+
+.image:nth-child(4n) { background: none; }
+
+.image img { display: inline-block; }
+
+.text_sprite {
+	text-align: center;
+	padding: 124px 14px 0;
+	margin-top: 50px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 17px;
+	background-repeat: no-repeat;
+}
+.text_sprite:before,
+.text_sprite:after {
+	content: "";
+}
+
+.text_sprite_1 { background-position: center 0; }
+.text_sprite_2 { background-position: center -400px; }
+.text_sprite_3 { background-position: center -800px; }
+.text_sprite_4 { background-position: center -1200px; }
+.text_sprite_5 { background-position: center -1600px; }
+.text_sprite_6 { background-position: center -2000px;  }
+.text_sprite_7 { background-position: center -2400px; }
+.text_sprite_8 { background-position: center -2800px; }
+.text_sprite_9 { background-position: center -3200px; }
+.text_sprite_10 { background-position: center -3600px; }
+
+#page_d7de24da028556ce73e087ff12b21547 .text_sprite.sprite_en {
+	background-image: url(http://www.emergensys.net/tp_images/block/default/malaysie_special_requirements_sprite.png);
+}
+#page_d7de24da028556ce73e087ff12b21547 .text_sprite.sprite_fr {
+	background-image: url(http://www.emergensys.net/tp_images/block/default/malaysie_special_requirements_sprite-fr.png);
+}
+#page_d7de24da028556ce73e087ff12b21547 .text_sprite.sprite_es {
+	background-image: url(http://www.emergensys.net/tp_images/block/default/malaysie_special_requirements_sprite-es.png);
+}
+
+#page_2db39baaffd4aba4d52856857321380e .text_sprite.sprite_en {
+	background-image: url(http://www.emergensys.net/tp_images/block/default/montreal_performance_indicators.png);
+}
+#page_2db39baaffd4aba4d52856857321380e .text_sprite.sprite_fr {
+	background-image: url(http://www.emergensys.net/tp_images/block/default/montreal_performance_indicators-fr.png);
+}
+#page_2db39baaffd4aba4d52856857321380e .text_sprite.sprite_es {
+	background-image: url(http://www.emergensys.net/tp_images/block/default/montreal_performance_indicators-es.png);
+}
+
+/*max-width: @screen-xs-max*/
+@media (min-width: 579px) {
+	.text_sprite {
+		float: left;
+		width: 20%;
+	}
+	#page_2db39baaffd4aba4d52856857321380e .text_sprite.sprite_en {
+		width: 16.66%;
+	}
+	#page_2db39baaffd4aba4d52856857321380e .text_sprite.sprite_fr {
+		width: 16.66%;
+	}
+	#page_2db39baaffd4aba4d52856857321380e .text_sprite.sprite_es {
+		width: 16.66%;
+	}
+}
+/*max-width: @screen-sm-max*/
+@media (max-width: 1199px) {
+	.text_sprite{
+		padding: 124px 5px 0 !important;
+		font-size: 11px !important;
+	}
+}
+
+
+.img-50 div .em_icon {
+	display: block;
+	max-width: 50%;
+	margin: 0 auto;
+}
+
+.img-50 div {
+	display: table;
+	margin: 0 auto;
+}
+
+.img-50 {
+	padding-top: 45px;
+	margin-bottom: -40px;
+} 
